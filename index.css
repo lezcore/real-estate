@@ -66,7 +66,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 75px;
+  padding-top: 55px;
 }
 .main__title {
   color: var(--black);
@@ -108,4 +108,16 @@ main .main-buttons button {
 main .main-buttons button:hover {
   background-color: #9b9a9a;
   cursor: pointer;
+}
+
+.main-img {
+  padding-top: 30px;
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.main-img img {
+  width: 400px;
+  height: 525px;
 }
