@@ -62,10 +62,11 @@ main {
   width: 100%;
 }
 .main {
-  height: 280px;
+  height: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 75px;
 }
 .main__title {
   color: var(--black);
@@ -86,4 +87,25 @@ main {
 }
 ::placeholder {
   color: var(--grey);
+}
+
+main .main-buttons {
+  width: 70%;
+  margin: 0 auto;
+}
+main .main-buttons div {
+  display: inline-block;
+}
+main .main-buttons button {
+  height: 36px;
+  background-color: var(--grey);
+  border: 1px solid transparent;
+  font-size: 15px;
+  color: var(--warn-black);
+  padding: 0 15px;
+  margin-right: 9px;
+}
+main .main-buttons button:hover {
+  background-color: #9b9a9a;
+  cursor: pointer;
 }
