@@ -15,8 +15,8 @@
   padding: 0;
 }
 html {
-  font-family: 'DM Sans', sans-serif;
-  /* font-family: Typold; */
+  /* font-family: 'DM Sans', sans-serif; */
+  font-family: Helvetica, Arial, sans-serif;
 }
   /* font-family: 'Inter', sans-serif; */
 header {
@@ -85,5 +85,5 @@ main {
   outline: none;
 }
 ::placeholder {
-  color: var(--warn-black);
+  color: var(--grey);
 }
